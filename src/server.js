@@ -20,7 +20,8 @@ const PORT = process.env.PORT || 5001;
 
 
 // Apply routes to specific endpoints
-app.use("/api/transactions", transactionsRoute);  // Use the transactions route for /api/transactions
+app.use("/api/transactions", transactionsRoute);
+// Use the transactions route for /api/transactions
 // If you need routes for other resources like products, you can define and import them similarly:
 // app.use("/api/products", productsRoute);
 
